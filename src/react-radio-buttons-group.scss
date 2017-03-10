@@ -1,0 +1,39 @@
+.react-radio-buttons-group {
+    display: flex;
+    border-radius: 2px;
+}
+
+.react-radio-buttons-group__item {
+    flex: 1 1 0;
+
+    &:first-child .react-radio-button__control {
+        border-left: 1px solid #d4d4d4;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+
+    &:last-child .react-radio-button__control {
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+}
+
+.react-radio-button__input {
+    display: none;
+}
+
+.react-radio-button__control {
+    display: block;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-left: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    cursor: pointer;
+
+    .react-radio-button__input:checked + & {
+        background-color: #e9e8e3;
+    }
+}
