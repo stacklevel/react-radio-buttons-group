@@ -2,6 +2,8 @@ React Radio Buttons Group
 ============
 React component for a group of radio buttons built with and for [React](http://facebook.github.io/react/index.html).
 
+![demo](http://g.recordit.co/gqXy6MNVCP.gif)
+
 ## Installation
 `npm install react-radio-buttons-group --save`
 
