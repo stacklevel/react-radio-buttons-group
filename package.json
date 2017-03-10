@@ -1,6 +1,6 @@
 {
   "name": "react-radio-buttons-group",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for a group of radio buttons",
   "main": "build/bundle.js",
   "dependencies": {
