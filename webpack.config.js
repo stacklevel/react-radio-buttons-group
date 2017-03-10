@@ -1,8 +1,9 @@
 module.exports = {
-    entry: "./src/react-radio-buttons-group.jsx",
+    entry: "./src/index.jsx",
     output: {
         filename: 'bundle.js',
         library: 'ReactRadioButtonsGroup',
+        libraryTarget: 'umd',
         path: 'build'
     },
     module: {
@@ -14,7 +15,12 @@ module.exports = {
                 query: {
                     presets: ["react", "es2015"]
                 }
-            }
+            },
+            {
+                test: /\.scss$/,
+                loader: 'style!css!sass',
+                exclude: /node_modules/
+            },
         ]
     },
     resolve: {
