@@ -26,6 +26,8 @@ const RadioButtons = () => (
 
 > Coming soon...
 
+![demo](http://i.imgur.com/qZI1yVd.gif)
+
 ## Components API
 
 ##### `<ReactRadioButtonsGroup/>`
