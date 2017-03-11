@@ -1,3 +1,6 @@
+[![npm](https://img.shields.io/npm/v/react-radio-buttons-group.svg)](https://www.npmjs.com/package/react-radio-buttons-group)
+[![npm](https://img.shields.io/npm/dt/react-radio-buttons-group.svg)](https://www.npmjs.com/package/react-radio-buttons-group)
+
 React Radio Buttons Group
 ============
 React component for a group of radio buttons built with and for [React](http://facebook.github.io/react/index.html).
