@@ -4,19 +4,19 @@
   "description": "React component for a group of radio buttons",
   "main": "build/bundle.js",
   "dependencies": {
-    "babel-core": "^6.23.1",
-    "babel-loader": "^6.4.0",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react": "^6.23.0",
-    "react": "^15.4.2"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0",
-    "css-loader": "^0.27.1",
+    "@kadira/storybook": "^2.35.3",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
     "node-sass": "^4.5.0",
+    "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "sass-loader": "^6.0.3",
-    "webpack": "^1.14.0"
+    "webpack": "^2.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
