@@ -21,9 +21,9 @@ class ReactRadioButton extends React.Component {
                     type='radio'
                     name={group}
                     value={value}
-                    id={value}
+                    id={`${group}[${value}]`}
                 />
-                <label className='react-radio-button__control' htmlFor={value} >
+                <label className='react-radio-button__control' htmlFor={`${group}[${value}]`} >
                     {this.props.children}
                 </label>
             </div>
